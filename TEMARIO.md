@@ -58,4 +58,30 @@ Revisar la base de datos: Usuario Bloqueado hora de bloqueo: 12:00:12
 
 Ejemplo. 
 Busqueda de OpenAI en google, el primer resultado debe ser un enlace que lleve a openai.com 
+## ¿Qué es Test Prioritization?✅
++ Es una estrategia en la que asignas un orden a las pruebas
++ Un orden en funcion de su importancia, impacto, urgencia
++ Te ayuda  que los casos mas valiosos se ejecuten primero
+## Objetivos principales de Test Prioritization✅
++ Ejecutar pruebas con mayor impacto
++ Detectar errores criticos 
++ Maximisar el valor de las pruebas
 
+## Criterios para priorizar pruebas✅
++ Frecuencia de uso
++ Impacto del error
++ Probabilidad de fallo
++ Requisitos del cliente
++ Dependencias
+Ejemplo: 
+Probando la funcionalidad de google buscar
++ una barra de busqueda
++ resultados con enlaces y titulos
++ filtros como imagenes, videos, etc. 
+
+Listar casos de prueba
++ probar buscar texto simple
++ probar filtro
++ probar resultados patrocinados
++ probar sugerencia de busqueda
++ probar casos de limite (textolargo)
