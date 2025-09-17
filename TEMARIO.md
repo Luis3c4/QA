@@ -85,3 +85,9 @@ Listar casos de prueba
 + probar resultados patrocinados
 + probar sugerencia de busqueda
 + probar casos de limite (textolargo)
+## Functional Testing
++ La prueba funcional es un enfoque que se utiliza para verificar cada funcionalidad del software y que cada función cumpla con el requisito dado.
+## UAT
++
+## Non-functional Testing
++ Los atributos no funcionales del software, como el rendimiento, la usabilidad, la seguridad, la fiabilidad y la calidad, se evalúan mediante pruebas no funcionales. La calidad y el rendimiento del software pueden mejorarse con pruebas no funcionales.
