@@ -88,6 +88,134 @@ Listar casos de prueba
 ## Functional Testing
 + La prueba funcional es un enfoque que se utiliza para verificar cada funcionalidad del software y que cada función cumpla con el requisito dado.
 ## UAT
-+
++ Objetivos: 
+1. Validar los requisitos
+2. Simular un entorno real
+3. Detectar los problemas 
+4. Obtener aprobacion 
+
+Caracteristicas
+1. Centrado en el usaurio final
+2. Basado en escenarios reales
+3. Entornos separado
+
+Ejemplo practico: 
+Escenrio: Nueva funcionalidad de busqueda avanzada, te permite filtrar resultados por fecha tipo de contenido y ubicaion. 
+
+Fase 1: Preparacion
+Identificar usuarios: Estudiantes, investigadores, periodistas
+Definir requisitos: 
+- filtro de fecha 
+- todo tipo de contenido
+- ubicacion geografica 
+
+Diseñar los casos de prueba: 
+caso1: Realizar una busqeuda sin filtros -> Verficiar los resultados mas relevantes PASSED
+caso2: aplicar filtro "ultima semana" -> Verificar que los resultados esten dentro rango PASSED
+caso3: Combinar tipo: imagenes ubicacion: españa -> Verfiicar que los resultados esten dentro del rango de ubicacion y de tipo PASSED
+caso4: Intentar busquedas invalidas Ej. caracteres especiales -> Verfiicar si maneja estos caracteres con un mensaje claro. FAILED
+
+Fase2: Ejecucion de las pruebas
+1. Preparar el entorno de prueabs
+2. Ejecutar 
+3. Recopilar el feedback 
+
+Fase 3:  Resultados de UAT
+resultado esperado: toda slas funciones cumplen con los requisitos 
+el sistema responde rapidamente 
+
+Errores encontrados: 
+- Eel filtro de ubicacion no funciona correctamene
+- Los resultados de la ultima seman incluyen articulos mas antiguos
+- caso4: Intentar busquedas invalidas Ej. caracteres especiales -> Verfiicar si maneja estos caracteres con un mensaje claro. FAILED
+
+Fase 4: Aprobacion
+Una vez corregidos los errores y confirmada funcionalidad -> Luz verde al despliegue a produccion 
+## Exploratory Testing
+No conoces bien el sistema 
++ Sin guion No requiere casos de prueba 
++ Creatividad y analisis critico 
++ Adaptacion 
++ Documentacion posterior
+
+demo:
+- Explorar el funcionamiento de la barra de busqueda de google
+Pruebas iniciales.
+
+Prueba 1: Consulta valida en le buscador
+resultado actual: el buscador devuelve resultados correctos al realizar consultas validas
+resultado esperado: el buscador debe devolver los resultados correctos en el cuadro de busqueda
+bug: 
+
+prueba 2: prueba con entradas no validas
+Resultado actual: el buscado devuelve resultados correctos al ingresar caracteres especiales
+
+prueba 3: Interacciones con la interfaz
+Resultado actual: las opciones de la interfaz estan funcionando correctamente
+
+prueba 4: Problemas de conexion de internet
+Resultado actual: responde bien cuando no tenemos conexion a internet
+
+## Sanity Testing
+El Sanity Testing es un tipo de prueba de software que se realiza después de una corrección de errores o cambios menores  en el codigo.
+
+Características del Sanity Testing
++ Enfocado en funcionalidades específicas:
++ Rápido y no exhaustivo: 
++ Se realiza manualmente: 
++ Complemento del Regression Testing: 
+
+Demo pruebas:
+
+Pruebas básicas del autocompletado:
+Paso 1: Escribe la palabra "clima" en la barra de búsqueda.
+Resultado esperado: Se deben mostrar sugerencias relacionadas como "clima hoy", "clima en Madrid", etc.
+Resultado obtenido: ✅ Las sugerencias aparecen correctamente.
+
+Paso 2: Escribe un término incompleto como "tecnolog".
+Resultado esperado: Se deben mostrar sugerencias como "tecnología", "tecnologías modernas", etc.
+Resultado obtenido: ✅ Las sugerencias se generan adecuadamente.
+## ¿Qué es Regression Testing?
+verifica si los cambios recientes en el código (como correcciones de errores, actualizaciones o nuevas funcionalidades) no han afectado negativamente las partes ya existentes del sistema. 
+
+Características del Regression Testing
++ Cobertura amplia: 
++ Reutilización de casos de prueba: 
++ Frecuente y automatizable: 
++ Foco en integridad: 
+
+Funcionalidad: Realizar una búsqueda básica
+Paso 1: Abre Google y escribe "noticias".
+Resultado esperado: Aparecen resultados relevantes relacionados con "noticias".
+Resultado obtenido: ✅ Los resultados aparecen correctamente.
+
+Funcionalidad: Verificar el autocompletado
+Paso 1: Escribe "clima" en la barra de búsqueda.
+Resultado esperado: Aparecen sugerencias relacionadas con el término "clima".
+Resultado obtenido: ✅ El autocompletado funciona como se espera.
+
+Funcionalidad: Cambiar configuración de idioma
+Paso 1: Cambia el idioma de la página a francés.
+Paso 2: Escribe "météo" (clima en francés).
+Resultado esperado: Aparecen sugerencias y resultados relevantes en francés.
+Resultado obtenido: ✅ Los resultados y sugerencias aparecen correctamente en el idioma seleccionado.
+## Smoke Testing 
+una aplicación funcionan correctamente después de una nueva compilación o actualización.
+
+Prueba 1: Verificar que la página se carga correctamente (el logo de Google y el cuadro de búsqueda están visibles).
+Prueba 2: Verificar que se permite buscar por imagenes 
+## Unit Testing
+Los unit testing (pruebas unitarias) son un tipo de prueba de software que verifica de forma aislada si una unidad funcional específica de tu código 
+
+Características principales:
+Aisladas: 
+Rápidas: 
+Automatizadas: 
+
+Ventajas:
+Detectan errores 
+Facilitan el mantenimiento y la refactorización.
+Documentan el comportamiento esperado de las funciones.
 ## Non-functional Testing
 + Los atributos no funcionales del software, como el rendimiento, la usabilidad, la seguridad, la fiabilidad y la calidad, se evalúan mediante pruebas no funcionales. La calidad y el rendimiento del software pueden mejorarse con pruebas no funcionales.
+
