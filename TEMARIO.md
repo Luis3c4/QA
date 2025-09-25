@@ -219,3 +219,89 @@ Documentan el comportamiento esperado de las funciones.
 ## Non-functional Testing
 + Los atributos no funcionales del software, como el rendimiento, la usabilidad, la seguridad, la fiabilidad y la calidad, se evalúan mediante pruebas no funcionales. La calidad y el rendimiento del software pueden mejorarse con pruebas no funcionales.
 
+## Load Testing 
+Es un tipo de prueba de rendimiento que se realiza para determinar cómo una aplicación maneja una cantidad específica de usuarios
+
+¿Por qué es importante el Load Testing?
+Verificar el rendimiento bajo cargas esperadas.
+Identificar cuellos de botella en la infraestructura.
+Prevenir fallas durante picos de tráfico.
+Asegurar la experiencia del usuario incluso con alta demanda.
+
+Como realizar Load Testing
++ Identifica los escenarios www.wikipedia.org 
++ Define la carga esperada  | 20 
+
+
+## Security Testing
+El Security Testing o prueba de seguridad es un tipo de prueba de software diseñada para identificar vulnerabilidades, amenazas o riesgos en una aplicación o sistema.
+
+Objetivo del Security Testing
++ Identificar vulnerabilidades:
++ Prevenir accesos no autorizados:
++ Proteger datos sensibles:
++ Asegurar la continuidad del sistema:
++ Cumplir con regulaciones:
+
+Áreas clave del Security Testing
++ Confidencialidad:
++ Integridad:
++ Autenticación:
++ Autorización:
++ Disponibilidad:
++ No repudio:
+
+Tipos de Security Testing
++ Vulnerability Scanning:
++ Penetration Testing (Pruebas de Penetración):
++ Ethical Hacking:
++ Risk Assessment:
++ Security Auditing:
++ Postura de Seguridad:
+
+Herramientas comunes para Security Testing
++ OWASP ZAP (Zed Attack Proxy):
++ Burp Suite:
++ Nmap:
++ Metasploit:
++ Nikto:
++ Wireshark:
+
+Cómo realizar Security Testing
+1. Identificar objetivos
+2. Analizar posibles amenazas
+3. Configurar herramientas
+4. Realizar pruebas manuales
+5. Evaluar y mitigar riesgos
+
+Demo OWASP ZAP
+
+
+## ¿Qué es Accessibility Testing?
+El Accessibility Testing o prueba de accesibilidad es un tipo de prueba de software diseñada para garantizar que una aplicación, sitio web o sistema sea accesible para todos los usuarios, incluidos aquellos con discapacidades físicas, visuales, auditivas, cognitivas o de otro tipo. Su objetivo es asegurar que las personas con diferentes capacidades puedan interactuar con el sistema sin barreras.
+
+Cómo realizar Accessibility Testing
+1. Analizar el alcance:
+Identifica las áreas críticas de la aplicación (formularios, navegación, elementos multimedia).
+Decide si la prueba será manual, automatizada o una combinación de ambas.
+
+2. Realizar pruebas manuales:
+Navega por la aplicación con un lector de pantalla.
+Usa solo el teclado para interactuar con los elementos.
+Evalúa los mensajes de error, botones y enlaces para garantizar que sean claros y accesibles.
+
+3. Usar herramientas automatizadas:
+Ejecuta un análisis de accesibilidad con herramientas como Wave o Axe para identificar problemas de accesibilidad básicos.
+
+4. Validar colores y contraste:
+Usa verificadores de contraste para garantizar que los colores sean legibles para personas con daltonismo o visión reducida.
+
+5. Probar tecnologías de asistencia:
+Asegúrate de que la aplicación funcione bien con lectores de pantalla y otras tecnologías de asistencia.
+
+6. Generar reportes:
+Documenta las vulnerabilidades encontradas y clasifícalas según su severidad (baja, media, alta, crítica).
+
+7. Resolver problemas:
+Trabaja con desarrolladores y diseñadores para solucionar los problemas encontrados.
+
