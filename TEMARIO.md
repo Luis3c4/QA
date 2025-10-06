@@ -305,3 +305,40 @@ Documenta las vulnerabilidades encontradas y clasifícalas según su severidad (
 7. Resolver problemas:
 Trabaja con desarrolladores y diseñadores para solucionar los problemas encontrados.
 
+## SDLC
++ Planificación: Se evalúan los términos del proyecto, se estiman costos, se crea un cronograma y se definen objetivos. 
++ Análisis de requisitos: Se definen y documentan los requerimientos del software, buscando la aprobación de los interesados. 
++ Diseño: Se modela la arquitectura, la interfaz de usuario (UI), la programación, la seguridad y otros aspectos técnicos, y se crea un prototipo para obtener una idea básica. 
++ Desarrollo (Codificación): Se escribe el código de la aplicación según los diseños establecidos. 
++ Pruebas: Se comprueba la funcionalidad, la seguridad y la estabilidad del software para detectar y corregir errores. 
++ Despliegue: Se pone la aplicación a disposición de los usuarios de forma manual o automatizada. 
++ Mantenimiento: Se resuelven los errores que pasaron desapercibidos, se realizan actualizaciones y se proporciona soporte continuo al software
+## V MODEL
+Se llama “V” porque su diagrama tiene forma de esa letra:
+En el lado izquierdo de la V están las etapas de desarrollo (análisis, diseño, implementación).
+En el lado derecho, las etapas de prueba (verificación y validación) que corresponden directamente a las fases del lado izquierdo.
+En el centro o base, se realiza la codificación.
+## warerfall model
+Requisitos (Requirements)
+Se recopilan y documentan todas las necesidades del cliente.
+👉 Qué debe hacer el sistema.
+
+Diseño del sistema (System Design)
+Se crea la arquitectura del sistema y se definen las especificaciones técnicas.
+👉 Cómo funcionará el sistema.
+
+Implementación (Implementation / Coding)
+Los programadores escriben el código según el diseño.
+👉 Se construye el software.
+
+Pruebas (Testing)
+Se verifica y valida que el software cumpla con los requisitos.
+👉 Se detectan y corrigen errores.
+
+Despliegue (Deployment)
+El sistema se entrega y se pone en funcionamiento.
+👉 El cliente comienza a usarlo.
+
+Mantenimiento (Maintenance)
+Se corrigen fallos y se realizan mejoras a lo largo del tiempo.
+👉 Se mantiene y actualiza el software.
