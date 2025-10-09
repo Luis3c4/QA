@@ -342,3 +342,35 @@ El sistema se entrega y se pone en funcionamiento.
 Mantenimiento (Maintenance)
 Se corrigen fallos y se realizan mejoras a lo largo del tiempo.
 👉 Se mantiene y actualiza el software.
+
+## SCRUM
++ Ideal para equipos que trabajan por entregas periódicas Se basa en trabajo en equipo, colaboración constante y entregas incrementales (por partes funcionales y útiles del producto).
+Componentes de Scrum
++ Roles
+    - Product Owner(Propietario del producto)
+    - Scrum Master (Facilita las practicas de scrum)
+    - Equipo de Desarrollo - Incrementos de producto 
++ Artefactos
+    - Product backlog (Lista priorizada de tareas) 90 Tareas 
+    - Sprint Backlog (Lista de tareas pero de sprint) 10 Tareas - 2 semanas
+    - Incremento - Definition of done (PO y Equipo - Entrego algo que esta completo)
++ Eventos
+    - Sprint (ciclo de trabajo generalmente dura 2 semanas)
+    - Sprint planing (Planificacion)
+    - Daily Scrum (Reunion donde hablamos de como vamos en nuestras tareas)
+    - Sprint Review (Reunion donde revisamos como fue el sprint)
+    - Sprint Retrospective (reunion reflexionamos)
+
+
+Flujo de Trabajo de Scrum
+1. Crear el Product Backlog.
+2. Planificar el Sprint: Seleccionar elementos del Product Backlog y trasladarlos al Sprint Backlog.
+3. Desarrollar durante el Sprint con reuniones diarias de sincronización.
+4. Revisar el incremento en la Sprint Review.
+5. Mejorar el proceso en la Retrospectiva del Sprint.
+6. Repetir el ciclo con un nuevo Sprint.
+
+##kanban
+Kanban es un método ágil visual de gestión del trabajo que se basa en mejorar el flujo de tareas y limitar el trabajo en progreso (WIP: Work In Progress).
+
+Su objetivo es aumentar la eficiencia, reducir cuellos de botella y entregar valor de forma continua, sin necesidad de usar iteraciones fijas como los sprints de Scrum.
