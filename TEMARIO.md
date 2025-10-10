@@ -374,3 +374,94 @@ Flujo de Trabajo de Scrum
 Kanban es un método ágil visual de gestión del trabajo que se basa en mejorar el flujo de tareas y limitar el trabajo en progreso (WIP: Work In Progress).
 
 Su objetivo es aumentar la eficiencia, reducir cuellos de botella y entregar valor de forma continua, sin necesidad de usar iteraciones fijas como los sprints de Scrum.
+
+## QA MANUAL
+Pruebas manualmente
+
+Objetivos
++ Identificar defectos
++ verificar si el sistema cumple lo esperado
++ Asegurar la calidad de la interfaz y la usabilidad
++ Validar la calidad en general
+
+Tipos de pruebas manuales
+    + Pruebas funcionales
+    + Pruebas de usabilidad
+    + Prueba de exploracion
+    + Pruebas de regression
+    + Pruebas de compatibilidad
+    + Validacion de datos
+
+Pasos del QA Manual Testing
+    1. Analisar los requisitos
+    2. Preparar los casos de prueba - (Escenarios escritos para probar algo)
+    3. Ejecutar los casos de prueba 
+        Verificar que la opcion de teclado virtual funcione en busquedas en bing PASSED
+        Verificar que la opcion de teclado virtual funcione en busquedas en bing FAILED - Error 
+        Verificar que la opcion de teclado virtual funcione en busquedas en bing PASSED
+    4. Registro de resultados   
+    5. Revision y seguimiento
+        Error 1: La tecla enter del teclado virtual no esta funcionando correctamente FIXED
+
+Ventajas de QA Manual
+    + Enfoque humano
+    + Flexibilidad 
+    + Costo inicial es bajo
+    + Ideal para pruebas exploratorias
+
+Desvantajas del QA Manual
+    + Propenso a errores humanos
+    + Lento 
+    + Dificultad para repetir pruebas
+
+Herramientas para QA manual
+    + Jira 
+    + Testrail (gestion de casos de pruebas)
+    + Postman 
+    + BrowserStack 
+    
+## TDD Test-Driven Development
+Desarrollo guiado por pruebas
+
+Principios de TDD
+    1. Escribe una prueba que falle: 
+    2. Escribe el código mínimo para pasar la prueba: 
+    3. Refactoriza el código: 
+    4. Repite Demo. 
+## Test cases and Scenarios
+Describes un flujo que se va a probar
+
+Caractericas
+    + Son amplios
+    + descriptivos
+    + Para planificar
+
+Test Case
+    + Son especificos
+    + incluyen pasos claros
+    + responde la pregunta ¿Como probamos?
+
+Ejemplo practico de un test case: 
+- Titulo: Probar que un usuario registro puede agregar un producto en el carrito y completar la compra
+- ID: IDTS001
+- Precondicion: El usuario este registrado
+- Pasos: 
+    1. Navegar a la pagina principal de www.supermarket.com
+    2. Seleccionar un producto
+    3. Hacer clic en agregar al carrito
+    4. ir al carrito
+    5. Procesar la compra
+    6. Completar detalles de pago
+    7. Confirmar pedido
+- Datos de prueba: Producto laptop, metodo de pago tarjeta de credito
+- Resultado esperado: El pedido se realiza con exito y aparece una confirmacion en la pantalla
+                      podemos descargar la factura
+
+Test case y un test scenario
+    - Scenario es alto nivel  el test case es especifico
+    - Scenario identificar que probar Test case describe como probarlo
+    - Scenario describe la funcionalidad Test case incluye los pasos y datos y resultado
+
+TS1 Verificar que el usuario pueda realizar compras
+TS2 Verificar que el usuario pueda anular su compra
+
