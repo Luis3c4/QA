@@ -464,4 +464,55 @@ Test case y un test scenario
 
 TS1 Verificar que el usuario pueda realizar compras
 TS2 Verificar que el usuario pueda anular su compra
+## Prueba manual Compatibility
+Nos permite verificar que una app funcione en distintos entornos
+
+¿Qué es Compatibility Testing?
+    + Es el proceso de comprobar que un software interactua con todos los demas sistemas o herramienta de manera correcta.
+    + Sistemas operativos 
+    + Todos los navegadores
+    + Dispositivos (Moviles, tables, pc, laptos)
+    + Resoluciones (HD, full HD, 2K, 4K)
+    + Versiones de hardware (Procesadores, memoria, almacenamiento, etc.)
+    + Redes (Wifi, 4G, 5G, Baja latencia, etc.)
+    + Versiona de software relacionadas (Bibliotecas, apis, bases de datos)
+
+Tipos de compatibilidad
+    + Forward Com. 
+    + Backward Com. 
+
+Importancia de Compatibility
+    + Experiencia de usaurio
+    + Mayor alcance de mercado
+    + Reduccion de riesgos 
+    + Cumplimiento de los estandares 
+## Verificacion vs Validacion
+Son conceptos importantes
+
+Verificacion
+Verificamos que el proceso del software se esta llevando de acuerdo a los requisitos 
++ ¿Estamos construyendo el producto correctamente?
+
+Caracteristicas
+    + Se enfoca en revisar docuemntos
+    + Implica actividades estaticas
+    + Detecta errores tempranos 
+
+Ejemplo: 
+    Revisar el diseño del software para verificar si cumple con los requisitos minimos
+    Inspeccion el codigo para asegurar que cumple las guias de estilos
+
+Validacion
+Es el proceso de asegurarse cumple con las necesidades del usuario
++ ¿Estamos construyendo el producto adecuado?
+
+Caracteristicas
+    + enfoca en probar el software en ejecucion
+    + ejecutar codigo
+    + Verificar que el software cumpla con el cliente
+
+Ejemplo: 
+    Realizar pruebas para verificar si la cal suma correctamente
+    Probar la interfaz del usaurio que sea usable 
+
 
