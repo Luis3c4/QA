@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bienbenido a mi SWA</h1>
+    <p>esta es una pagina web estatica que sirve tal cual al navegador</p>
+    <script>
+        console.log("bienbenido a mi SWA se ha cargado correctamente")
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('sw.js')
+                .then(function(registration){
+                    console.log('service workerregistrado correctamente', registration)
+                })
+                .catch(function(error){
+                    console.error('fallo al registrar el service worker', error)
+                })
+        }
+    </script>
+</body>
+
+</html>

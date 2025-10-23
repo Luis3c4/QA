@@ -516,3 +516,26 @@ Ejemplo:
     Probar la interfaz del usaurio que sea usable 
 
 
+## Test Planning
+Planificas todo lo refernte  a las pruebas
+- Preparar el plan detallado
+- Quien va probar
+- Como se va a probar
+- que herramientas se van a usar 
+- como se van a ejecutar
+- que tiempo va a demorar
+
+¿Porque es importante el plan de pruebas?
+    + Define los objetivos de pruebas
+    + Evita retrasos y errores 
+    + Optimiza recursos 
+    + Miniza riesgos 
+
+Pasos para realizar un plan de pruebas
+    + Revision de los requisitos
+    + Definicion de objetivos 
+    + Decidir la estrategia 
+    + Asignacion de recursos
+    + Identificas los riesgos 
+    + Documentacion 
+    + Aprobacion del test plan 
